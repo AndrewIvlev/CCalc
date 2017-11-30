@@ -10,4 +10,3 @@
 #include "tstack.h"
 using namespace std;
 #include "tcalc.h"
-//#include "..\CCalc\tcalc.cpp"
