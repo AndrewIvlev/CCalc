@@ -1,0 +1,13 @@
+// stdafx.h: включаемый файл дл€ стандартных системных включаемых файлов
+// или включаемых файлов дл€ конкретного проекта, которые часто используютс€, но
+// не часто измен€ютс€
+#pragma once
+
+// TODO. ”становите здесь ссылки на дополнительные заголовки, требующиес€ дл€ программы
+#include <string>
+#include <math.h>
+#include <msclr\marshal_cppstd.h>
+#include "tstack.h"
+using namespace std;
+#include "tcalc.h"
+//#include "..\CCalc\tcalc.cpp"
