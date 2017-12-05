@@ -8,10 +8,11 @@ public:
 	TCalc(){}
 	~TCalc(){}
 	int priority(char op);
-	void Setinfix(const string _inf){infix = _inf;}
+	double factorial(int n);
+	void Setinfix(const string _inf);
 	string Getinfix(){return infix;}
 	string Getpostfix(){return postfix;}
 	bool Check();
 	void topostfix();
-	double calc();
+	double Calc();
 };
